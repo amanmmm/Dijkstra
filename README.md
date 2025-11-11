@@ -45,12 +45,11 @@ Open index.html in any web browser.
 That’s it — select a source router and click “Compute Routing Table” 🎯
 
 📸 Example Output
-Destination	Next Hop	Cost	Path
-B	B	2	A → B
-C	B	3	A → B → C
-D	C	5	A → B → C → D
-E	D	6	A → B → C → D → E
-💡 Future Enhancements
+Destination	NextHop	Cost	Path
+B	            B	     2	  A → B
+C	            B	     3	A → B → C
+D	            C	     5	A → B → C → D
+E           	D	     6	A → B → C → D → E
 
 Add visual graph visualization using D3.js or Canvas
 
